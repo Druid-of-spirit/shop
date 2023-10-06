@@ -1,0 +1,16 @@
+@import "../style/scss-variables.scss";
+
+.basket {
+    width: 160px;
+    height: 42px;
+    background-color: #F7D22D;
+    padding: 14px 30px;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    p {
+        font-size: 1.6em;
+        @extend %bold;
+    }
+    
+}

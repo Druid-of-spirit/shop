@@ -1,0 +1,23 @@
+@import "../style/scss-variables.scss";
+
+.call {
+    // border: 1px solid red;
+    display: flex;
+    gap: 28px;
+    justify-content: start;
+    // align-items: center;
+    a {
+        margin: 6px 0 0 0;
+        font-size: 3rem;
+        color: #F7D22D;
+        @extend %block;
+        @extend %bold;
+    }
+    button {
+        width: 180px;
+        height: 42px;
+        border-radius: 50px;
+        font-size: 1.4rem;
+        color: #696F7A;
+    }
+}

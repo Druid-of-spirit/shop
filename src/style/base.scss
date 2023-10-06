@@ -1,0 +1,54 @@
+@import "./null-style.scss";
+@import "./color.scss";
+@import "./font.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+.app {
+    font-size: 10px;
+    letter-spacing: 2.6em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+a {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: black;
+    
+    text-decoration:none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+button  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1320px; //Максимальная ширина основного контента
+    margin: auto; //Выравнивает контент по центру container
+    
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,113 @@
+@import "../style/scss-variables.scss";
+
+.grid {
+    border: 1px solid red;
+    height: 455px;
+    margin: 0 0 60px 0;
+    display: grid;
+    grid-template: auto auto/ 0.55fr 0.45fr;
+}
+
+// .logo {
+//     @extend %block;
+//     margin: 0 0 30px 0;
+//     display: inline-block;
+// }
+
+.box1 {
+    // border: 1px solid yellow;
+    .logo {
+        // border: 1px solid red;
+        display: inline-block;
+        margin: 0 0 30px 0;
+    }
+    .box1Sub {
+        // border: 1px solid blue;
+        // display: inline-block;
+        a {
+            margin: 0 50px 25px 0;
+        }
+        h2 {
+            margin:0 0 25px 0 ;
+        }
+    }
+    
+    .box1Social {
+        display: grid;
+        grid-template: auto auto/ auto auto auto;
+        row-gap: 15px;
+        a {
+            margin: 0;
+        }
+        a:nth-child(1) {
+            order: 1;
+        }
+        a:nth-child(2) {
+            order: 2;
+        }
+        a:nth-child(3) {
+            order: 5;
+        }
+        a:nth-child(4) {
+            order: 4;
+        }
+        p:nth-child(5) {
+            order: 3;
+        }
+        p:nth-child(6) {
+            order: 6;
+        }
+    }
+}
+
+.box2 {
+    margin: 25px 0 0 0 ;
+    // border: 1px solid blue;
+    h2 {
+        margin: 0 0 30px 0;
+        font-size: 1.4em;
+    }
+    .box2Social {
+        display: grid;
+        grid-template: 1fr/ 1fr 1fr 1fr 1fr ;
+        gap: 14px;
+        a {
+            min-width: 100px;
+            height: 52px;
+            border: 2px solid #E3ECF5;
+            border-radius: 13px;
+            text-align: center;
+            padding: 10px 0;
+            &:last-child {
+                grid-column: span 2;
+                padding: 16px 0;
+            }
+        }
+        
+        p {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.box3 {
+    // border: 1px solid green;
+    // align-items: end;
+    display: flex;
+    gap: 23px;
+    p {
+        margin: 0 100px 10px 0;
+    }
+    img {
+        margin: -12px 0 0 0;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.imgAbs {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

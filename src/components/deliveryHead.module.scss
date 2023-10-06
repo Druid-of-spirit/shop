@@ -1,0 +1,27 @@
+@import "../style/scss-variables.scss";
+
+.delivery {
+    // border: 1px solid red;
+    margin: 10px 0 0 0;
+    p {
+        margin: 0 0 10px 0;
+        font-size: 1.7em;
+        @extend %bold;
+    }
+    span {
+        color: #F7D22D;
+    }
+}
+.deliveryInfo {
+    display: flex;
+    justify-content: space-between;
+    // gap: 10px 10px;
+    iframe {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+    }
+    span {
+        color: black;
+    }
+}

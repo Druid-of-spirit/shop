@@ -1,0 +1,30 @@
+@import "../style/scss-variables.scss";
+
+.widget {
+    display:  flex;
+    img:nth-child(1) {
+        width: 16px;
+        height: 16px;
+        margin: 0 8px 0 0;
+    }
+    p {
+        margin: 0 20px 0 0;
+        position: relative;
+    }
+    p::after {
+        position: absolute;
+        top: 6px;
+        right: -12px;
+        content: "";
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #F7D22D;
+        
+    }
+    img:nth-child(3) {
+        width: 40px;
+        height: 16px;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../style/scss-variables.scss";
+
+.products {
+    margin: 0 0 75px 0;
+    h2 {
+        font-size: 3.2rem;
+        @extend %bold;
+        margin: 0 0 30px 0;
+        color: #F7D22D;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+

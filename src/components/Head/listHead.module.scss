@@ -1,14 +1,14 @@
-@import "../style/scss-variables.scss";
+@import "../../style/scss-variables.scss";
 
 .list {
-    margin: 0 58px 0 0;
+    margin: 0 40px 0 0;
     // border: 1px solid blue;
     display: flex;
     flex: 1 1 auto;
     justify-content: space-between;
     align-items: center;
     a {
-        font-size: 1.5em;
+        font-size: 1.5rem;
         @extend %bold;
     }
 }

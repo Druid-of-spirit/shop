@@ -1,16 +1,16 @@
 import React from 'react';
 import classes from './contacts.module.scss';
-import call from '../assets/call.png';
-import facebook from '../assets/facebook.png';
-import light from '../assets/light.png';
-import skype from '../assets/skype.png';
-import telegram from '../assets/telegram.png';
-import vk from '../assets/vk.png';
-import bigLogo from '../assets/bigLogo.png';
-import logo from '../assets/logo.png';
-import maestro from '../assets/maestro.png';
-import visa from '../assets/visa.png';
-import paypal from '../assets/paypal.png';
+import call from '../../assets/call.png';
+import facebook from '../../assets/facebook.png';
+import light from '../../assets/light.png';
+import skype from '../../assets/skype.png';
+import telegram from '../../assets/telegram.png';
+import vk from '../../assets/vk.png';
+import bigLogo from '../../assets/bigLogo.png';
+import logo from '../../assets/logo.png';
+import maestro from '../../assets/maestro.png';
+import visa from '../../assets/visa.png';
+import paypal from '../../assets/paypal.png';
 
 const Contacts = ({children}) => {
     return ( 

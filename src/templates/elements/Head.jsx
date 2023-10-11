@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classes from './head.module.scss';
 import Call from '../../components/Call';
-import DeliveryHead from '../../components/DeliveryHead';
-import ListHead from '../../components/ListHead';
-import Login from '../../components/Login';
-
+import DeliveryHead from '../../components/Head/DeliveryHead';
+import ListHead from '../../components/Head/ListHead';
+import Login from '../../components/Head/Login';
+import Basket from '../../components/Head/Basket';
 import logo from '../../assets/logo.png';
-import Basket from '../../components/Basket';
+
+
 
 const Head = () => {
+    const [basket, setBasket] = useState([])
+
     const timeM = 10
     const moscow = "Москва"
     return ( 

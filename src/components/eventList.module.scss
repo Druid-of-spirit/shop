@@ -1,0 +1,33 @@
+@import "../style/scss-variables.scss";
+
+.eventList {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 75px 0;
+    h2 {
+        font-size: 4.4rem;
+        @extend %bold;
+        margin: 0 0 60px 0;
+        text-align: center;
+    }
+    span {
+        color: #F7D22D;
+    }
+    button {
+        margin: 0 auto;
+        width: 160px;
+        height: 48px;
+        border-radius: 23px;
+        background-color: #F7D22D;
+        
+    }
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+}
+

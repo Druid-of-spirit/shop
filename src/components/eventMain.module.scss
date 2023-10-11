@@ -1,0 +1,13 @@
+@import "../style/scss-variables.scss";
+
+.eventMain {
+    img {
+        width: 640px;
+        height: 505px;
+        // max-width: 540px;
+        // max-height: 405px;
+        min-width: 300px;
+        min-height: 213px;
+    }
+}
+

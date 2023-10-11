@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './widget.module.scss';
-import logo from '../assets/widget/logo.png';
-import rating from '../assets/widget/rating.png';
+import logo from '../../assets/widget/logo.png';
+import rating from '../../assets/widget/rating.png';
 
 const Widget = () => {
     return (

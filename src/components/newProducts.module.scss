@@ -1,0 +1,16 @@
+@import "../style/scss-variables.scss";
+
+.newProducts {
+    margin: 0 0 55px 0;
+    h2 {
+        font-size: 2.4rem;
+        @extend %bold;
+        margin: 0 0 40px 0;
+    }
+    
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}

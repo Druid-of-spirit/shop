@@ -1,9 +1,9 @@
 import React from 'react';
-import BoxList from '../templates/BoxList';
+import MainTemplate from '../templates/MainTemplate';
 const Main = () => {
     return ( 
         <>
-            <BoxList />
+            <MainTemplate />
         </>
     );
 }

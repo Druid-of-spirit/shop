@@ -1,0 +1,23 @@
+@import "../style/scss-variables.scss";
+
+.product {
+    width: 253px;
+    img {
+        margin: 0 0 15px 0;
+    }
+    h3 {
+        margin: 0 0 15px 0;
+        font-size: 2.4rem;
+        color: #797979;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+.flex {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

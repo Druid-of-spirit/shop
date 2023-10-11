@@ -1,16 +1,16 @@
 import React from 'react';
 import Head from './elements/Head';
-import Content from './elements/Content';
+import MainPage from './elements/MainPage';
 import Footer from './elements/Footer';
-import classes from './boxList.module.scss';
-const BoxList = () => {
+import classes from './mainTemplate.module.scss';
+const MainTemplate = () => {
     return ( 
         <div className={classes.box}>
             <Head/>
-            <Content/>
+            <MainPage/>
             <Footer/>
         </div>
     );
 }
 
-export default BoxList;
+export default MainTemplate;

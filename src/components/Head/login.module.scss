@@ -1,11 +1,9 @@
-@import "../style/scss-variables.scss";
+@import "../../style/scss-variables.scss";
 
 .login {
     margin: 0 30px 0 0;
-    padding: 10px 0;
     button {
-        
-        font-size: 1.6em;
+        font-size: 1.6rem;
         color: #696F7A;
         background: none;
     }

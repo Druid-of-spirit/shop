@@ -1,0 +1,30 @@
+@import "../style/scss-variables.scss";
+
+.product {
+    display: flex;
+    padding: 14px 26px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0, 0.5));
+    img {
+        margin: 0 25px 0 0;
+    }
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p:nth-child(1) {
+        margin: 0 0 10px 0;
+        font-size: 1.8rem;
+        @extend %bold;
+    }
+    
+}
+
+.price {
+    font-size: 1.6rem;
+    @extend %bold;
+    color: #F7D22D;
+}
